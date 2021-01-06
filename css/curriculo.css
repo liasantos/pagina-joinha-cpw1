@@ -1,0 +1,22 @@
+.linkedin:hover,
+.github:hover {
+  background-color: transparent;
+}
+
+p {
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.curriculum-img,
+.invert-photo {
+  display: inline;
+  width: 12%;
+  height: auto;
+  vertical-align: middle;
+  border-radius: 0;
+}
+
+.invert-photo {
+  filter: invert(100%);
+}

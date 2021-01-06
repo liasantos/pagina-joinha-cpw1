@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Página da Lia</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/marcarhorario.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Página da Lia</h1>
+      <nav>
+        <a href="index.html">Início</a>
+        <a href="sobremim.html">Sobre mim</a>
+        <a href="curriculo.html">Currículo</a>
+        <a href="citacoes.html">Citações</a>
+        <a href="hobbies.html">Hobbies</a>
+        <a href="favoritos.html">Favoritos</a>
+        <a href="horarios.html">Horários</a>
+        <a href="marcarhorario.html"
+          ><span class="active-menu">Marcar Horário</span></a
+        >
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Marcar Horário</h2>
+        <h3>
+          Preencha o formulário para entrar em contato ou marcar um horário:
+        </h3>
+        <form
+          method="post"
+          enctype="text/plain"
+          target="blank"
+          id="horario-form"
+        >
+          <fieldset>
+            <div class="inputfield">
+              Qual é o seu nome?<input
+                name="login"
+                type="text"
+                minlength="2"
+                placeholder="Insira seu nome aqui"
+                required
+              />
+            </div>
+            <div class="inputfield">
+              Qual é o seu email?<input
+                name="email"
+                type="email"
+                minlength="6"
+                placeholder="Insira seu email aqui"
+                required
+              />
+            </div>
+            <div class="inputfield">
+              Qual o assunto da sua mensagem?<input
+                name="assunto"
+                type="text"
+                minlength="3"
+                placeholder="Insira o assunto aqui"
+                required
+              />
+            </div>
+            <div class="inputfield">
+              Qual a sua idade?<input
+                name="idade"
+                type="number"
+                minlength="2"
+                placeholder="Insira sua idade"
+                required
+              />
+            </div>
+            <div class="gender" class="inputfield">
+              <!--ver como estilizar radio -->
+              <span class="gen-title">Gênero:</span
+              ><input type="radio" name="sexo" value="Masculino" />
+              Masculino
+              <input type="radio" name="sexo" value="Feminino" /> Feminino
+              <input type="radio" name="sexo" value="Outro" /> Outro
+            </div>
+            <div class="inputfield">
+              Dia e horário: <input name="dataehora" type="datetime-local" />
+            </div>
+            <div class="inputfield">
+              Mensagem:
+              <textarea
+                name="mensagem"
+                placeholder="Insira sua mensagem aqui"
+              ></textarea>
+            </div>
+            <button
+              type="submit"
+              form="horario-form"
+              value="submit"
+              id="button"
+            >
+              Enviar
+            </button>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+    <footer>Feito por <strong>Lia Santos</strong>.</footer>
+  </body>
+</html>

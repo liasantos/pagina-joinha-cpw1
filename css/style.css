@@ -1,0 +1,106 @@
+* {
+  /*css reset*/
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+body {
+  background-image: url(../img/bg.jpg);
+  background-repeat: repeat;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background-color: #e0becc;
+}
+
+h1 {
+  font-weight: bolder;
+  color: black;
+  text-shadow: 1px 1px 3px rgb(128, 0, 21);
+  font-family: tahoma;
+  line-height: 3;
+  font-size: 35px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  padding: 2px;
+  line-height: 3;
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: justify;
+  line-height: 1;
+  color: rgb(128, 0, 21);
+}
+
+p {
+  font-size: 17px;
+  font-family: tahoma;
+}
+
+.heart {
+  color: rgb(151, 3, 27);
+  text-shadow: black 1px 1px 2px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  background-color: black;
+}
+
+.active-menu {
+  font-weight: bold;
+  border-bottom: rgb(252, 164, 178) solid 1px;
+}
+
+a {
+  color: rgb(252, 164, 178);
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+a:hover {
+  background-color: rgb(151, 3, 27);
+}
+
+main {
+  max-width: 750px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+img {
+  border-radius: 25px;
+}
+
+abbr {
+  color: rgb(151, 3, 27);
+}
+
+footer {
+  text-align: center;
+  line-height: 7;
+  font-size: 15px;
+  color: black;
+  text-shadow: 2px 2px 5px rgb(128, 0, 21);
+}

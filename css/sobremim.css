@@ -1,0 +1,33 @@
+.lia-photo {
+  width: 250px;
+  height: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h3 {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.cities-list {
+  margin-bottom: 1px;
+}
+p {
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.about-photos {
+  width: 110px;
+  height: 80px;
+}

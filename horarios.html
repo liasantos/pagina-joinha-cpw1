@@ -1,41 +1,53 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <!--seta a linguagem/país-->
   <head>
     <meta charset="UTF-8" />
-    <title>Página da Lia</title>
+    <!--define codificação de caracteres-->
+    <title>Horários</title>
     <link rel="stylesheet" href="css/style.css" />
+    <!--linka css-->
     <link rel="stylesheet" href="css/horarios.css" />
   </head>
 
   <body>
     <header>
+      <!--define cabeçalho-->
       <h1>Página da Lia</h1>
       <nav>
+        <!--define menu de navegação-->
         <a href="index.html">Início</a>
         <a href="sobremim.html">Sobre mim</a>
         <a href="curriculo.html">Currículo</a>
         <a href="citacoes.html">Citações</a>
         <a href="hobbies.html">Hobbies</a>
         <a href="horarios.html"><span class="active-menu">Horários</span></a>
+        <!--menu ativo-->
         <a href="marcarhorario.html">Marcar Horário</a>
       </nav>
     </header>
     <div class="container-flex">
       <!--corrige o problema do width-->
       <main>
+        <!-- define conteúdo principal-->
         <section>
+          <!--separa por seções-->
           <h2>Horários</h2>
           <h3>
             <a class="marcar-hora" href="marcarhorario.html">Marcar Horário</a>
           </h3>
           <ul>
+            <!--define lista não ordenada-->
             <li>Horário exclusivo para atendimento da loja (Cosmique);</li>
             <li>Aulas IFSUL - Construção de Páginas para Web (Aula de CPW);</li>
             <li>Aulas IFSUL - Lingua Inglesa (Aula de Inglês);</li>
           </ul>
           <table>
+            <!--define tabela-->
             <tr>
+              <!--define linha da tabela-->
               <th>Horário</th>
+              <!--define cabeçalho da tabela-->
               <th>Segunda</th>
               <th>Terça</th>
               <th>Quarta</th>
@@ -44,6 +56,7 @@
             </tr>
             <tr>
               <td>9:00</td>
+              <!--define célula da tabela-->
               <td>Cosmique</td>
               <td>Cosmique</td>
               <td>Cosmique</td>
@@ -165,9 +178,10 @@
           </table>
         </section>
       </main>
-      <!-- marca o início dos favoritos-->
+      <!-- marca o início da sidebar de favoritos-->
       <div class="container-aside">
         <aside>
+          <!--define conteúdo aside-->
           <h2 class="h2-aside">Favoritos</h2>
           <ul>
             <li>
@@ -219,7 +233,8 @@
                   />
                 </a>
                 <p class="p-fav">
-                  É um podcast sobre magia <span id="del">e capirotagem</span>.
+                  É um podcast sobre magia
+                  <span class="del">e capirotagem</span>.
                 </p>
               </div>
             </li>
@@ -279,7 +294,7 @@
             </li>
           </ul>
         </aside>
-        <!--marca o início do contato-->
+        <!--marca o início da sidebar de contato-->
         <aside class="aside2">
           <h2 class="h2-aside">Contato</h2>
           <a
@@ -297,5 +312,6 @@
       </div>
     </div>
     <footer>Feito pela <strong>Lia Santos</strong>.</footer>
+    <!--define rodapé-->
   </body>
 </html>

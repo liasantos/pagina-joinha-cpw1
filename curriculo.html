@@ -1,28 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <!--seta a linguagem/país-->
   <head>
     <meta charset="UTF-8" />
-    <title>Página da Lia</title>
+    <!--define codificação de caracteres-->
+    <title>Currículo</title>
     <link rel="stylesheet" href="css/style.css" />
+    <!--linka css-->
     <link rel="stylesheet" href="css/curriculo.css" />
   </head>
 
   <body>
     <header>
+      <!--define cabeçalho-->
       <h1>Página da Lia</h1>
       <nav>
+        <!--define menu de navegação-->
         <a href="index.html">Início</a>
         <a href="sobremim.html">Sobre mim</a>
         <a href="curriculo.html"><span class="active-menu">Currículo</span></a>
+        <!--menu ativo-->
         <a href="citacoes.html">Citações</a>
         <a href="hobbies.html">Hobbies</a>
         <a href="horarios.html">Horários</a>
         <a href="marcarhorario.html">Marcar Horário</a>
       </nav>
     </header>
-    <div class="container-flex"> <!--corrige o problema do width-->
+    <div class="container-flex">
+      <!--corrige o problema do width-->
       <main>
+        <!-- define conteúdo principal-->
         <section>
+          <!--separa por seções-->
           <h2>Currículo</h2>
           <p>
             <img
@@ -52,10 +61,10 @@
             Possui
             <em
               >Ensino Médio completo, certificado pelo
-              <abbr title="Exame Nacional de Ensino Médio">ENEM</abbr></em
+              <abbr title="Exame Nacional de Ensino Médio">ENEM.</abbr></em
             >
-            <sub>(2013)</sub
-            >.<!--ver como neutralizar o efeito sub e deixar para o css estilizar-->
+            <sub>(2013)</sub>
+            <!--ver como neutralizar o efeito sub e deixar para o css estilizar-->
           </p>
           <p>
             <img
@@ -115,9 +124,10 @@
           </p>
         </section>
       </main>
-      <!-- marca o início dos favoritos-->
+      <!-- marca o início da sidebar de favoritos-->
       <div class="container-aside">
         <aside>
+          <!--define conteúdo aside-->
           <h2 class="h2-aside">Favoritos</h2>
           <ul>
             <li>
@@ -169,7 +179,8 @@
                   />
                 </a>
                 <p class="p-fav">
-                  É um podcast sobre magia <span id="del">e capirotagem</span>.
+                  É um podcast sobre magia
+                  <span class="del">e capirotagem</span>.
                 </p>
               </div>
             </li>
@@ -229,7 +240,7 @@
             </li>
           </ul>
         </aside>
-        <!--marca o início do contato-->
+        <!--marca o início da sidebar de contato-->
         <aside class="aside2">
           <h2 class="h2-aside">Contato</h2>
           <a
@@ -247,5 +258,6 @@
       </div>
     </div>
     <footer>Feito pela <strong>Lia Santos</strong>.</footer>
+    <!--define rodapé-->
   </body>
 </html>

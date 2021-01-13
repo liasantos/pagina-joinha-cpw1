@@ -14,10 +14,10 @@ fieldset {
 
 .inputfield {
   display: flex;
-  flex-direction: column;
+  flex-direction: column; /*mantém o flex em coluna*/
   line-height: 2;
   width: 100%;
-  align-items: center;
+  align-items: center; /*centraliza os elementos do flex*/
   font-size: 17px;
   color: rgb(128, 0, 21);
 }
@@ -27,6 +27,7 @@ fieldset {
 }
 
 .gender {
+  /*estiliza a input radio*/
   display: flex;
   width: 75%;
   align-items: center;
@@ -48,12 +49,13 @@ textarea {
   width: 75%;
   height: 150px;
   padding: 12px 20px;
-  box-sizing: border-box;
+  /*box-sizing: border-box;*/ /*altera propriedade padrão da boxmodel - 
+  width e height será a soma do conteúdo com a borda e o padding.*/
   border: 2px solid #ccc;
   border-radius: 4px;
   background-color: #f8f8f885;
   font-size: 16px;
-  resize: none;
+  resize: none; /*corrige o problema de redimensionamento livre*/
 }
 
 button {
@@ -70,6 +72,7 @@ button {
 }
 
 button:hover {
+  /*inverte as cores no hover*/
   background-color: rgb(128, 0, 21);
   color: #ccc;
 }

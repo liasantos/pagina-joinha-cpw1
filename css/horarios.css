@@ -1,6 +1,6 @@
 * {
   text-align: center;
-  list-style: none;
+  list-style: none; /*reset da lista*/
 }
 
 h3 {
@@ -21,17 +21,17 @@ h3 {
 table {
   margin: auto;
   margin-top: 20px;
-  border-collapse: collapse;
+  border-collapse: collapse; /*corrige borda dupla*/
   background-color: rgba(255, 199, 209, 0.404);
 
 }
 
 tr:hover {
-  background-color: rgba(151, 3, 28, 0.705);
+  background-color: rgba(151, 3, 28, 0.705); /*hover bacaninha nas linhas*/
   color: #e0becc;
 }
 
-th {
+th { /*estilo do cabeçalho da tabela*/
   background-color: rgb(151, 3, 27);
   color: rgb(255, 199, 209);
   font-weight: bold;
@@ -39,7 +39,7 @@ th {
   padding: 15px;
 }
 
-td,
+td, /*bordinha e espaçamento bacana nas células e linhas*/
 tr {
   padding: 15px;
   border: dotted 2px #e0becc;

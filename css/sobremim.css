@@ -1,4 +1,4 @@
-.ul-fav {
+.ul-fav { /*tira interferência de estilo padrão da página sobremim*/
   margin-left: 0;
   margin-top: 0;
 }
@@ -10,9 +10,9 @@ ul {
 .lia-photo {
   width: 250px;
   height: 250px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  display: block; /*centraliza*/
+  margin-left: auto; /*centraliza*/
+  margin-right: auto; /*centraliza*/
 }
 
 h3 {
@@ -28,7 +28,7 @@ h3,
 p,
 ul,
 .about-photos {
-  margin-left: 10%;
+  margin-left: 10%; /*desgruda da esquerda*/
 }
 
 .about-photos {

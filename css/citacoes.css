@@ -13,13 +13,12 @@ cite {
 }
 
 .cite-left {
+  /*blockquote*/
   text-align: left;
   margin-left: 10%;
-  
 }
 .margin-cite {
   margin-left: 18%;
-
 }
 
 .citacoes-img {
@@ -30,10 +29,8 @@ cite {
 }
 
 blockquote {
-  text-align:right;
+  text-align: right;
 }
-
-
 
 p,
 q,

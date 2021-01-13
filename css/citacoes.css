@@ -12,9 +12,34 @@ cite {
   color: rgb(151, 3, 27);
 }
 
+.cite-left {
+  text-align: left;
+  margin-left: 10%;
+  
+}
+.margin-cite {
+  margin-left: 18%;
+
+}
+
 .citacoes-img {
   width: 180px;
   height: auto;
   margin-bottom: 2%;
   margin-top: 2%;
+}
+
+blockquote {
+  text-align:right;
+}
+
+
+
+p,
+q,
+blockquote,
+cite,
+img {
+  margin-left: 10%;
+  margin-right: 10%;
 }

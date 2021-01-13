@@ -6,12 +6,14 @@
 p {
   margin-bottom: 10px;
   text-align: justify;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .curriculum-img,
 .invert-photo {
   display: inline;
-  width: 12%;
+  width: 14%;
   height: auto;
   vertical-align: middle;
   border-radius: 0;

@@ -1,11 +1,29 @@
-p,
-h3 {
-  margin-bottom: 10px;
-  text-align: justify;
+h2 {
+  padding: 0;
 }
 
-.hobbies-img {
+p,
+h3 {
+  text-align: justify;
+  margin-left: 10%;
   margin-top: 20px;
-  width: 180px;
+  margin-right: 10%;
+}
+
+h3 {
+  line-height: 2;
+}
+
+p {
+  padding-bottom: 5px;
+}
+
+.music {
+  margin-left: 10%;
+  width: 150px;
+  height: auto;
+}
+.hobbies-img {
+  width: 150px;
   height: auto;
 }

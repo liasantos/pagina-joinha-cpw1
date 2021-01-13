@@ -16,6 +16,9 @@ body {
 
 section {
   margin-bottom: 20px;
+  background-color: rgba(255, 199, 209, 0.315);
+  width: 750px;
+  border-radius: 5px;
 }
 
 header {
@@ -30,7 +33,7 @@ h1 {
   text-shadow: 1px 1px 3px rgb(128, 0, 21);
   font-family: tahoma;
   line-height: 3;
-  font-size: 35px;
+  font-size: 200%;
   text-align: center;
 }
 
@@ -65,6 +68,7 @@ nav {
   justify-content: space-around;
   padding: 15px;
   background-color: black;
+  border-radius: 7px;
 }
 
 .active-menu {
@@ -74,19 +78,90 @@ nav {
 
 a {
   color: rgb(252, 164, 178);
-  font-size: 24px;
+  font-size: 110%;
   font-weight: bold;
   text-align: center;
 }
 
+.a-aside:hover {
+  background-color: transparent;
+  opacity: 0.7;
+}
 a:hover {
   background-color: rgb(151, 3, 27);
 }
 
+.container-flex {
+  display: flex;
+}
+
+.container-aside {
+  display: flex;
+  flex-direction: column;
+  max-width: 25%;
+  bottom: 55px;
+  margin-right: 5%;
+  margin-left: auto;
+}
+
 main {
-  max-width: 750px;
   margin: 0 auto;
   margin-top: 15px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-bottom: 5px;
+}
+aside {
+  /*position: fixed;*/
+  margin-top: 10px;
+  background-color: rgba(255, 199, 209, 0.568);
+  overflow: auto;
+  border-radius: 5px;
+}
+
+.h2-aside {
+  font-size: 22px;
+}
+
+.favoritos-img {
+  margin-left: 20px;
+  border-radius: 100%;
+  height: 50px;
+  width: 50px;
+}
+
+.container-fav {
+  display: flex;
+  align-items: center;
+}
+
+.img-aside2 {
+  border-radius: 0%;
+  height: 50px;
+  width: auto;
+  display: block;
+  margin: auto;
+}
+
+.p-fav {
+  font-size: 17px;
+  line-height: 1;
+  margin: 15px;
+  text-align: left;
+}
+
+.aside2 {
+  margin-top: 10px;
+  height: auto;
+}
+
+#del {
+  text-decoration: line-through;
 }
 
 img {
@@ -98,9 +173,13 @@ abbr {
 }
 
 footer {
+  margin-top: 30px;
   text-align: center;
-  line-height: 7;
+  line-height: 3;
   font-size: 15px;
   color: black;
   text-shadow: 2px 2px 5px rgb(128, 0, 21);
+  background-color: rgba(255, 158, 174, 0.349);
+  border: solid 2px rgb(128, 0, 21);
+  border-radius: 7px;
 }
